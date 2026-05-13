@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="mht mhdt">
+  <title id="mht">Mental health in tech survey analytics banner</title>
+  <desc id="mhdt">Bright teal and blue charts suggesting wellbeing metrics and survey insights</desc>
+  <defs>
+    <linearGradient id="mBG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ccfbf1"/>
+      <stop offset="45%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="mLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d9488"/>
+      <stop offset="40%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="mCard" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0fdfa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="380" fill="url(#mBG)"/>
+  <circle cx="140" cy="80" r="160" fill="#2dd4bf" opacity="0.35"/>
+  <circle cx="1080" cy="320" r="200" fill="#38bdf8" opacity="0.35"/>
+  <circle cx="620" cy="40" r="90" fill="#14b8a6" opacity="0.2"/>
+  <rect x="40" y="36" width="1120" height="308" rx="22" fill="url(#mCard)" stroke="#99f6e4" stroke-width="2"/>
+  <rect x="64" y="58" width="280" height="42" rx="12" fill="#ecfeff" stroke="#a5f3fc"/>
+  <rect x="84" y="72" width="96" height="14" rx="4" fill="#14b8a6"/>
+  <rect x="190" y="72" width="120" height="14" rx="4" fill="#bae6fd"/>
+  <g transform="translate(64 122)">
+    <rect width="520" height="196" rx="14" fill="#ffffff" stroke="#cffafe"/>
+    <rect x="18" y="18" width="180" height="12" rx="3" fill="#0f766e"/>
+    <path d="M28 160 L96 96 L164 124 L232 72 L300 108 L368 56 L436 88 L492 44" fill="none" stroke="url(#mLine)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="96" cy="96" r="9" fill="#14b8a6"/>
+    <circle cx="232" cy="72" r="9" fill="#06b6d4"/>
+    <circle cx="368" cy="56" r="9" fill="#0ea5e9"/>
+    <circle cx="492" cy="44" r="9" fill="#2563eb"/>
+    <rect x="18" y="172" width="484" height="14" rx="5" fill="#ecfeff"/>
+  </g>
+  <g transform="translate(616 122)">
+    <rect width="520" height="88" rx="14" fill="#f0fdfa" stroke="#99f6e4"/>
+    <rect x="18" y="22" width="140" height="11" rx="3" fill="#0d9488"/>
+    <rect x="18" y="46" width="88" height="36" rx="9" fill="#5eead4" stroke="#14b8a6" stroke-width="2"/>
+    <rect x="118" y="46" width="88" height="36" rx="9" fill="#bae6fd" stroke="#38bdf8" stroke-width="2"/>
+    <rect x="218" y="46" width="88" height="36" rx="9" fill="#7dd3fc" stroke="#0284c7" stroke-width="2"/>
+    <rect x="318" y="46" width="88" height="36" rx="9" fill="#99f6e4" stroke="#0d9488" stroke-width="2"/>
+    <rect x="418" y="46" width="88" height="36" rx="9" fill="#a5f3fc" stroke="#2563eb" stroke-width="2"/>
+  </g>
+  <g transform="translate(616 230)">
+    <rect width="520" height="88" rx="14" fill="#ffffff" stroke="#cffafe"/>
+    <rect x="18" y="22" width="160" height="11" rx="3" fill="#0369a1"/>
+    <rect x="18" y="46" width="72" height="48" rx="10" fill="#14b8a6" opacity="0.85"/>
+    <rect x="102" y="54" width="72" height="40" rx="10" fill="#22d3ee" opacity="0.9"/>
+    <rect x="186" y="46" width="72" height="56" rx="10" fill="#3b82f6" opacity="0.85"/>
+    <rect x="270" y="58" width="72" height="44" rx="10" fill="#06b6d4" opacity="0.88"/>
+    <rect x="354" y="62" width="72" height="40" rx="10" fill="#2dd4bf" opacity="0.9"/>
+    <rect x="438" y="50" width="72" height="52" rx="10" fill="#0ea5e9" opacity="0.85"/>
+  </g>
+</svg>

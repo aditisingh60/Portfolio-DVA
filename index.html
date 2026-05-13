@@ -4,45 +4,67 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio DVA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="page-shell">
     <header class="site-header">
-      <div>
+      <div class="site-intro">
+        <p class="eyebrow">Data visualization &amp; analytics</p>
         <h1 class="site-title">Aditi Singh</h1>
         <p class="site-copy">Data Analyst portfolio showcasing Tableau dashboards, analytics work, and data storytelling projects.</p>
       </div>
       <div class="hero-actions">
-        <a class="btn-primary" href="#projects">View Projects</a>
-        <a class="btn-secondary" href="#contact">Contact Me</a>
+        <a class="btn btn-primary" href="#projects">View projects</a>
+        <a class="btn btn-secondary" href="#contact">Skills</a>
       </div>
     </header>
 
     <main class="content">
-      <section id="projects" class="main-card">
-        <h2 class="section-heading">📊 Featured Data Projects</h2>
+      <section id="projects" class="main-card section-block">
+        <div class="section-head">
+          <h2 class="section-heading">Featured data projects</h2>
+          <p class="section-lede">Interactive Tableau work with embeds and links to the live dashboards.</p>
+        </div>
         <div class="repo-grid">
-          <div class="repo-card">
+          <article class="repo-card">
             <div class="repo-card-body">
-              <h3 class="repo-title">🎬 Netflix Content Intelligence Dashboard</h3>
+              <h3 class="repo-title">Netflix Content Intelligence Dashboard</h3>
               <p class="repo-desc">Built an interactive Tableau dashboard to analyze Netflix content trends, genres, ratings, and global distribution.</p>
               <div class="repo-tags">
                 <span class="topic-tag">Tableau</span>
                 <span class="topic-tag">EDA</span>
                 <span class="topic-tag">Dashboard</span>
               </div>
-              <iframe
-                src="https://public.tableau.com/views/NetflixDashContentIntelligence/Dashboard1?:embed=y&:display_count=yes"
-                width="100%" height="350" loading="lazy" title="Netflix Dashboard"
-              ></iframe>
-              <div style="margin-top: 16px;">
-                <a href="https://public.tableau.com/app/profile/aditi.singh6105/viz/NetflixDashContentIntelligence/Dashboard1?publish=yes" target="_blank" class="btn-primary">🔗 View Full Dashboard</a>
+              <div class="embed-frame embed-frame--dashboard">
+                <div class="dashboard-thumb">
+                  <img
+                    src="images/netflix-project.svg"
+                    alt=""
+                    width="1200"
+                    height="380"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <iframe
+                  src="https://public.tableau.com/views/NetflixDashContentIntelligence/Dashboard1?:embed=y&:display_count=yes"
+                  width="100%"
+                  height="350"
+                  loading="lazy"
+                  title="Netflix Dashboard"
+                ></iframe>
+              </div>
+              <div class="repo-actions">
+                <a href="https://public.tableau.com/app/profile/aditi.singh6105/viz/NetflixDashContentIntelligence/Dashboard1?publish=yes" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">View full dashboard</a>
               </div>
             </div>
-          </div>
+          </article>
 
-          <div class="repo-card">
+          <article class="repo-card">
             <div class="repo-card-body">
               <h3 class="repo-title">Mind Matrics: Mental Health in Tech</h3>
               <p class="repo-desc">Story-driven DVA project analyzing OSMI Mental Health in Tech survey data using EDA and visual storytelling to uncover workplace mental health trends.</p>
@@ -51,25 +73,45 @@
                 <span class="topic-tag">Analytics</span>
                 <span class="topic-tag">KPI</span>
               </div>
-              <iframe
-                src="https://public.tableau.com/views/Book1_17771519970940/Dashboard1?:embed=y&:display_count=yes"
-                width="100%" height="350" loading="lazy" title="Mental Health in Tech Dashboard"
-              ></iframe>
-              <div style="margin-top: 16px;">
-                <a href="https://public.tableau.com/app/profile/aditi.singh6105/viz/Book1_17771519970940/Dashboard1?publish=yes" target="_blank" class="btn-primary">🔗 View Full Dashboard</a>
+              <div class="embed-frame embed-frame--dashboard">
+                <div class="dashboard-thumb">
+                  <img
+                    src="images/mental-health-tech.svg"
+                    alt=""
+                    width="1200"
+                    height="380"
+                    loading="lazy"
+                    decoding="async"
+                  />
+                </div>
+                <iframe
+                  src="https://public.tableau.com/views/Book1_17771519970940/Dashboard1?:embed=y&:display_count=yes"
+                  width="100%"
+                  height="350"
+                  loading="lazy"
+                  title="Mental Health in Tech Dashboard"
+                ></iframe>
+              </div>
+              <div class="repo-actions">
+                <a href="https://public.tableau.com/app/profile/aditi.singh6105/viz/Book1_17771519970940/Dashboard1?publish=yes" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-block">View full dashboard</a>
               </div>
             </div>
-          </div>
+          </article>
         </div>
       </section>
 
-      <section class="main-card">
-        <h2 class="section-heading">💡 About Me</h2>
-        <p>I am a Data Analyst passionate about turning raw data into meaningful insights. I specialize in Tableau dashboards, data storytelling, and KPI-driven analysis. My goal is to help businesses make smarter, data-driven decisions.</p>
+      <section class="main-card section-block">
+        <div class="section-head">
+          <h2 class="section-heading">About me</h2>
+        </div>
+        <p class="prose">I am a Data Analyst passionate about turning raw data into meaningful insights. I specialize in Tableau dashboards, data storytelling, and KPI-driven analysis. My goal is to help businesses make smarter, data-driven decisions.</p>
       </section>
 
-      <section id="contact" class="main-card">
-        <h2 class="section-heading">⚙️ Skills</h2>
+      <section id="contact" class="main-card section-block">
+        <div class="section-head">
+          <h2 class="section-heading">Skills</h2>
+          <p class="section-lede">Tools and methods I use day to day.</p>
+        </div>
         <div class="skills-badges">
           <span class="badge">Tableau</span>
           <span class="badge">Python</span>
