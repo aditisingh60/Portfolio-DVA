@@ -1,5 +1,6 @@
 # Portfolio-DVA
-DVA based portfolio
+
+Personal portfolio site built with HTML and CSS. It showcases projects, skills, and profile information—focused on data visualization and analytics work (Tableau dashboards, storytelling).
 
 ## Run locally
 
